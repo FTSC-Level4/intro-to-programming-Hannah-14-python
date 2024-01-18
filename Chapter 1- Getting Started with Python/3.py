@@ -1,5 +1,8 @@
 
+import datetime
 
-str_list = ['I', 'am', 'awesome!']
-result = ' '.join(str_list)
-print(result)
+now = datetime.datetime.now()
+
+print("Current date and time : ")
+
+print(now.strftime("%Y-%m-%d %H:%M:%S"))
