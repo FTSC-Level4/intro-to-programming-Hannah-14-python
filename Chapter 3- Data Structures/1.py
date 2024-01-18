@@ -1,4 +1,4 @@
-names = ['ron', 'tyler', 'dani']
+names = ['tyler', 'keira', 'rence']
 
 print(names[0])
 print(names[1])
